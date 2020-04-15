@@ -15,15 +15,15 @@
 	// --clr-hover: #6f6e6e;
 
 	--clr-font: #575757;
-	--clr-background: #9da6aa;
-	--clr-lightShadow: #b6c1c5;
-	--clr-darkShadow: #848b8f;
+	--clr-background: #cdd7d8;
+	--clr-lightShadow: #ecf7f8;
+	--clr-darkShadow: #aeb7b8;
 	--clr-border: rgba(255, 255, 255, 0.2);
 	--clr-hover: #6f6e6e;
 
 	--box-shadow: 5px 5px 10px var(--clr-darkShadow), -4px -4px 12px var(--clr-lightShadow);
 	--button-shadow: 5px 5px 10px var(--clr-darkShadow), -5px -5px 10px var(--clr-lightShadow);
-	--box-shadow-reverse: inset 4px 4px 10px var(--clr-darkShadow), inset -6px -6px 12px var(--clr-lightShadow);
+	--box-shadow-reverse: inset 4px 4px 10px var(--clr-darkShadow), inset -4px -4px 12px var(--clr-lightShadow);
 }
 
 body {
@@ -119,7 +119,7 @@ form {
 	}
 }
 .item-done > .item {
-	//text-decoration: line-through;
+	text-decoration: line-through;
 	opacity: 0.5;
 
 	box-shadow: var(--box-shadow-reverse);
@@ -130,7 +130,7 @@ form {
 	padding: 0.5rem;
 	border-radius: 10px;
 	min-width: 10rem;
-	background-color: #bac1c4;
+	background: aeb7b8;
 	box-shadow: var(--box-shadow);
 	box-shadow: var(--box-shadow-reverse);
 }
