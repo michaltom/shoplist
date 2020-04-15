@@ -136,19 +136,19 @@ form {
 }
 
 .done-button {
-	background: linear-gradient(145deg, #c9f2ca, #a9cbaa);
+	background: linear-gradient(145deg, #e4fde5, #c0d4c1);
 	box-shadow: var(--button-shadow);
 }
 
 .done-button:hover {
-	background: linear-gradient(145deg, #a9cbaa, #c9f2ca);
+	background: linear-gradient(145deg, #c0d4c1, #e4fde5);
 }
 
 .remove-button {
-	background: linear-gradient(145deg, #ffb7b7, #df9a9a);
+	background: linear-gradient(145deg, #ffdcdd, #e6b9ba);
 	box-shadow: var(--button-shadow);
 
 	&:hover {
-		background: linear-gradient(145deg, #df9a9a, #ffb7b7);
+		background: linear-gradient(145deg, #e6b9ba, #ffdcdd);
 	}
 }
